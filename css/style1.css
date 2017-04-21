@@ -1,0 +1,128 @@
+
+nav ul li{
+	display: inline;
+}
+nav{
+	text-decoration: none;
+	text-align: right;
+	
+}
+
+
+li a{
+	text-decoration: none;
+	padding: 10px;
+	position: relative;
+	top: 15px;
+	font-weight: bold;
+}
+
+li a:hover{
+	background: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+header{
+	background:url(../images/image5.jpg) center fixed;
+	//background-color: #381814; 
+	height: 60px;
+	text-align:center;
+	position: fixed;
+	z-index: 1;
+}
+
+a{
+	color: pink;
+}
+
+.imgs{
+	width: 300px;
+	height: 200px;
+}
+
+.detail{
+	line-height: 1.6em;
+	font-size: 16px;
+}
+
+.container{
+	
+	color: black;
+	font-family: Baumans;
+}
+
+.in_farm{
+	//color: #a84c05;
+	line-height: 1.6em;
+	font-size: 14px;
+	margin-bottom: 7px;
+}
+
+.main{
+	background:url(../images/image5.jpg) center fixed;
+	background-size:cover;  
+	color: pink;
+	font-family: Lemonada;
+}
+
+.item{
+	width: 99%;
+	height: 400px;
+}
+.imag{
+	width: 100%;
+	height: 400px;
+}
+.headings{
+	padding:35px 0px 0px 10px;
+	color:  #ff6600;
+}
+
+footer{
+	color: brown;
+	text-align:center;
+	background-color: #66563e;
+}
+i{
+	margin-right: 10px;
+	width:30px;
+	height: 30px;	
+}
+i:hover{
+	background: white;
+}
+#email{
+	width : 300px;
+	height : 40px;
+	box-sizing : border-box;
+	border : 2px solid lightblue;
+	border-radius : 4px;
+	font-size : 16px;
+	padding : 6px 12px;
+	background-size:50px 50px;
+	transition : box-shadow 0.3s, border 0.3s;
+}
+
+#submit{
+ 
+	border-radius: 8px;
+	width: 80px;
+	height: 30px;
+	color: black;
+}
+#farmers{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 18px;
+}
+#adjust{
+	padding: 0px 0px 0px 10px;
+	position: relative;
+	top : 50px;
+}
+#nav{
+	position: relative;
+	top : -50px;
+	left:100px;
+}
